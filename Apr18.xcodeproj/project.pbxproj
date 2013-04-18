@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E36EE512171F8F480006637E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36EE511171F8F480006637E /* UIKit.framework */; };
+		E36EE514171F8F480006637E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36EE513171F8F480006637E /* Foundation.framework */; };
+		E36EE516171F8F480006637E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36EE515171F8F480006637E /* CoreGraphics.framework */; };
+		E36EE51C171F8F480006637E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E36EE51A171F8F480006637E /* InfoPlist.strings */; };
+		E36EE51E171F8F480006637E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE51D171F8F480006637E /* main.m */; };
+		E36EE522171F8F480006637E /* Apr18AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE521171F8F480006637E /* Apr18AppDelegate.m */; };
+		E36EE524171F8F480006637E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E36EE523171F8F480006637E /* Default.png */; };
+		E36EE526171F8F480006637E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36EE525171F8F480006637E /* Default@2x.png */; };
+		E36EE528171F8F480006637E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36EE527171F8F480006637E /* Default-568h@2x.png */; };
+		E36EE52F171F90390006637E /* Wifi_Hotspot_Locations.csv in Resources */ = {isa = PBXBuildFile; fileRef = E36EE52E171F90390006637E /* Wifi_Hotspot_Locations.csv */; };
+		E36EE532171F93530006637E /* WifiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE531171F93530006637E /* WifiTableViewController.m */; };
+		E36EE535171F93940006637E /* WifiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE534171F93940006637E /* WifiTableView.m */; };
+		E36EE538171F93B50006637E /* WifiHotSpots.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE537171F93B50006637E /* WifiHotSpots.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E36EE50E171F8F480006637E /* Apr18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apr18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36EE511171F8F480006637E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E36EE513171F8F480006637E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E36EE515171F8F480006637E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E36EE519171F8F480006637E /* Apr18-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apr18-Info.plist"; sourceTree = "<group>"; };
+		E36EE51B171F8F480006637E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E36EE51D171F8F480006637E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E36EE51F171F8F480006637E /* Apr18-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apr18-Prefix.pch"; sourceTree = "<group>"; };
+		E36EE520171F8F480006637E /* Apr18AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apr18AppDelegate.h; sourceTree = "<group>"; };
+		E36EE521171F8F480006637E /* Apr18AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apr18AppDelegate.m; sourceTree = "<group>"; };
+		E36EE523171F8F480006637E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E36EE525171F8F480006637E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E36EE527171F8F480006637E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E36EE52E171F90390006637E /* Wifi_Hotspot_Locations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wifi_Hotspot_Locations.csv; sourceTree = "<group>"; };
+		E36EE530171F93530006637E /* WifiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiTableViewController.h; sourceTree = "<group>"; };
+		E36EE531171F93530006637E /* WifiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiTableViewController.m; sourceTree = "<group>"; };
+		E36EE533171F93940006637E /* WifiTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiTableView.h; sourceTree = "<group>"; };
+		E36EE534171F93940006637E /* WifiTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiTableView.m; sourceTree = "<group>"; };
+		E36EE536171F93B50006637E /* WifiHotSpots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiHotSpots.h; sourceTree = "<group>"; };
+		E36EE537171F93B50006637E /* WifiHotSpots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiHotSpots.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E36EE50B171F8F480006637E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36EE512171F8F480006637E /* UIKit.framework in Frameworks */,
+				E36EE514171F8F480006637E /* Foundation.framework in Frameworks */,
+				E36EE516171F8F480006637E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E36EE505171F8F480006637E = {
+			isa = PBXGroup;
+			children = (
+				E36EE517171F8F480006637E /* Apr18 */,
+				E36EE510171F8F480006637E /* Frameworks */,
+				E36EE50F171F8F480006637E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E36EE50F171F8F480006637E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36EE50E171F8F480006637E /* Apr18.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36EE510171F8F480006637E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36EE511171F8F480006637E /* UIKit.framework */,
+				E36EE513171F8F480006637E /* Foundation.framework */,
+				E36EE515171F8F480006637E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36EE517171F8F480006637E /* Apr18 */ = {
+			isa = PBXGroup;
+			children = (
+				E36EE520171F8F480006637E /* Apr18AppDelegate.h */,
+				E36EE530171F93530006637E /* WifiTableViewController.h */,
+				E36EE531171F93530006637E /* WifiTableViewController.m */,
+				E36EE521171F8F480006637E /* Apr18AppDelegate.m */,
+				E36EE518171F8F480006637E /* Supporting Files */,
+				E36EE533171F93940006637E /* WifiTableView.h */,
+				E36EE534171F93940006637E /* WifiTableView.m */,
+				E36EE536171F93B50006637E /* WifiHotSpots.h */,
+				E36EE537171F93B50006637E /* WifiHotSpots.m */,
+			);
+			path = Apr18;
+			sourceTree = "<group>";
+		};
+		E36EE518171F8F480006637E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E36EE52E171F90390006637E /* Wifi_Hotspot_Locations.csv */,
+				E36EE519171F8F480006637E /* Apr18-Info.plist */,
+				E36EE51A171F8F480006637E /* InfoPlist.strings */,
+				E36EE51D171F8F480006637E /* main.m */,
+				E36EE51F171F8F480006637E /* Apr18-Prefix.pch */,
+				E36EE523171F8F480006637E /* Default.png */,
+				E36EE525171F8F480006637E /* Default@2x.png */,
+				E36EE527171F8F480006637E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E36EE50D171F8F480006637E /* Apr18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36EE52B171F8F480006637E /* Build configuration list for PBXNativeTarget "Apr18" */;
+			buildPhases = (
+				E36EE50A171F8F480006637E /* Sources */,
+				E36EE50B171F8F480006637E /* Frameworks */,
+				E36EE50C171F8F480006637E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apr18;
+			productName = Apr18;
+			productReference = E36EE50E171F8F480006637E /* Apr18.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36EE506171F8F480006637E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Apr18;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Salvatore Lentini";
+			};
+			buildConfigurationList = E36EE509171F8F480006637E /* Build configuration list for PBXProject "Apr18" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E36EE505171F8F480006637E;
+			productRefGroup = E36EE50F171F8F480006637E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36EE50D171F8F480006637E /* Apr18 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36EE50C171F8F480006637E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36EE51C171F8F480006637E /* InfoPlist.strings in Resources */,
+				E36EE524171F8F480006637E /* Default.png in Resources */,
+				E36EE526171F8F480006637E /* Default@2x.png in Resources */,
+				E36EE528171F8F480006637E /* Default-568h@2x.png in Resources */,
+				E36EE52F171F90390006637E /* Wifi_Hotspot_Locations.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36EE50A171F8F480006637E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36EE51E171F8F480006637E /* main.m in Sources */,
+				E36EE522171F8F480006637E /* Apr18AppDelegate.m in Sources */,
+				E36EE532171F93530006637E /* WifiTableViewController.m in Sources */,
+				E36EE535171F93940006637E /* WifiTableView.m in Sources */,
+				E36EE538171F93B50006637E /* WifiHotSpots.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E36EE51A171F8F480006637E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36EE51B171F8F480006637E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E36EE529171F8F480006637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E36EE52A171F8F480006637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E36EE52C171F8F480006637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apr18/Apr18-Prefix.pch";
+				INFOPLIST_FILE = "Apr18/Apr18-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E36EE52D171F8F480006637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apr18/Apr18-Prefix.pch";
+				INFOPLIST_FILE = "Apr18/Apr18-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36EE509171F8F480006637E /* Build configuration list for PBXProject "Apr18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36EE529171F8F480006637E /* Debug */,
+				E36EE52A171F8F480006637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36EE52B171F8F480006637E /* Build configuration list for PBXNativeTarget "Apr18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36EE52C171F8F480006637E /* Debug */,
+				E36EE52D171F8F480006637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36EE506171F8F480006637E /* Project object */;
+}
