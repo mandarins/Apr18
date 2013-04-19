@@ -20,6 +20,7 @@
 		E36EE532171F93530006637E /* WifiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE531171F93530006637E /* WifiTableViewController.m */; };
 		E36EE535171F93940006637E /* WifiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE534171F93940006637E /* WifiTableView.m */; };
 		E36EE538171F93B50006637E /* WifiHotSpots.m in Sources */ = {isa = PBXBuildFile; fileRef = E36EE537171F93B50006637E /* WifiHotSpots.m */; };
+		E3ED3AEB1720ED5800426FF0 /* HotSpotEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3AEA1720ED5800426FF0 /* HotSpotEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		E36EE534171F93940006637E /* WifiTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiTableView.m; sourceTree = "<group>"; };
 		E36EE536171F93B50006637E /* WifiHotSpots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiHotSpots.h; sourceTree = "<group>"; };
 		E36EE537171F93B50006637E /* WifiHotSpots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiHotSpots.m; sourceTree = "<group>"; };
+		E3ED3AE91720ED5800426FF0 /* HotSpotEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSpotEntry.h; sourceTree = "<group>"; };
+		E3ED3AEA1720ED5800426FF0 /* HotSpotEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSpotEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 		E36EE517171F8F480006637E /* Apr18 */ = {
 			isa = PBXGroup;
 			children = (
+				E3ED3AE91720ED5800426FF0 /* HotSpotEntry.h */,
+				E3ED3AEA1720ED5800426FF0 /* HotSpotEntry.m */,
 				E36EE520171F8F480006637E /* Apr18AppDelegate.h */,
 				E36EE530171F93530006637E /* WifiTableViewController.h */,
 				E36EE531171F93530006637E /* WifiTableViewController.m */,
@@ -189,6 +194,7 @@
 				E36EE532171F93530006637E /* WifiTableViewController.m in Sources */,
 				E36EE535171F93940006637E /* WifiTableView.m in Sources */,
 				E36EE538171F93B50006637E /* WifiHotSpots.m in Sources */,
+				E3ED3AEB1720ED5800426FF0 /* HotSpotEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				E36EE52D171F8F480006637E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

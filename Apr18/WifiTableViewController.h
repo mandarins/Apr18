@@ -11,5 +11,6 @@
 
 @interface WifiTableViewController : UITableViewController {
     WifiHotSpots * wifiHotSpots;
+    NSString *cellReuseIdentifier;
 }
 @end

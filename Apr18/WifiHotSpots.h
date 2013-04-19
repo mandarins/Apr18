@@ -10,8 +10,7 @@
 
 @interface WifiHotSpots : NSObject {
     NSArray* rows;
-    //NSDictionary * nyc;
 }
-@property  NSDictionary * nyc;
+@property  NSMutableDictionary * nyc;
 - (id) init;
 @end

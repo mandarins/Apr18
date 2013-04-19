@@ -7,6 +7,7 @@
 //
 
 #import "WifiHotSpots.h"
+#import "HotSpotEntry.h"
 
 @implementation WifiHotSpots
 
@@ -16,13 +17,19 @@
     NSString* content = [NSString stringWithContentsOfFile:path
                                                   encoding:NSUTF8StringEncoding
                                                      error:NULL];
+    
     rows = [content componentsSeparatedByString:@"\n"];
    
     NSLog(@"%@, number of rows %u",path, rows.count);
-    
-    for ( int n = 0; n < rows.count; n++) {
+    self.nyc = [[NSMutableDictionary alloc] init];
+    int maxrow = 1250;
+    // File must have embedded commas because count doesn't match actual
+    // number of rows
+    for ( int n = 0; n < maxrow; n++) {
         NSString* row = [rows objectAtIndex:n];
-        NSArray * columns = [row componentsSeparatedByString:@","];
+        HotSpotEntry * hse = [[HotSpotEntry alloc] init: row ];
+        [self.nyc setObject: hse forKey: hse.hs_id ];
+        NSLog(@"current row %u", n);
     }
     return self;
 }
