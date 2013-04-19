@@ -18,16 +18,16 @@
         return self;
     }
     NSArray * columns = [withString componentsSeparatedByString:@","];
-    
-    self.shape = columns[0];
-    self.name = columns[1];
-    self.hs_id = columns[2];
-    self.address = columns[3];
-    self.city =  columns[4];
-    self.zip =  columns[5];
-    self.phone = columns[6];
-    self.type = columns[7];
-    self.url = columns[8];
+    self.objId = columns[0];
+    self.shape = columns[1];
+    self.name = columns[2];
+    self.hs_id = columns[3];
+    self.address = columns[4];
+    self.city =  columns[5];
+    self.zip =  columns[6];
+    self.phone = columns[7];
+    self.type = columns[8];
+    self.url = columns[9];
     return self;
 }
 

@@ -60,14 +60,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell =
+    [tableView dequeueReusableCellWithIdentifier: cellReuseIdentifier forIndexPath: indexPath];
     
 	// Configure the cell...
     NSArray *keys = [wifiHotSpots.nyc allKeys];
     id xKey = [keys objectAtIndex: indexPath.row ];
     HotSpotEntry * hse = (HotSpotEntry *)  [wifiHotSpots.nyc objectForKey: xKey ];
-	cell.textLabel.text = hse.name;
+	NSString * lbl = [[NSString alloc] initWithFormat: @" %@ %@", hse.hs_id, hse.address ];
+    cell.textLabel.text = lbl;
 	return cell;
 
 }

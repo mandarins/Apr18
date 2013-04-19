@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface HotSpotEntry : NSObject
+@property NSString * objId;
 @property NSString * shape;
 @property NSString * name;
 @property NSString * hs_id;
